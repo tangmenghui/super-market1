@@ -1,0 +1,9 @@
+.white-theme {
+    -fx-text-fill: #ffffff;
+}
+.green-theme {
+    -fx-text-fill: #06ab17;
+}
+.red-theme{
+    -fx-text-fill: #bf0909;
+}
