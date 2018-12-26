@@ -10,12 +10,12 @@
    <children>
       <ImageView fitHeight="675.0" fitWidth="956.0" pickOnBounds="true" preserveRatio="true">
          <image>
-             <Image url="/img/shine.jpg" />
+            <Image url="/img/shine.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="124.0" fitWidth="153.0" layoutX="20" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
          <image>
-             <Image url="/img/star.png" />
+            <Image url="/img/star.png" />
          </image>
       </ImageView>
       <Label  layoutX="190.0" layoutY="15.0" prefHeight="75.0" prefWidth="400.0" text="星辰超市商品管理系统" styleClass="white-theme " >
@@ -32,12 +32,12 @@
       <PasswordField layoutX="240.0" layoutY="275.0" fx:id="passwordField"/>
       <ImageView fitHeight="38.0" fitWidth="44.0" layoutX="190.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
          <image>
-             <Image url="/img/account.png" />
+            <Image url="/img/account.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="49.0" fitWidth="40.0" layoutX="190.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
          <image>
-             <Image url="/img/mima.png" />
+            <Image url="/img/mima.png" />
          </image>
       </ImageView>
       <Button layoutX="295.0" layoutY="400.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="78.0" text="登陆" onAction="#login"/>

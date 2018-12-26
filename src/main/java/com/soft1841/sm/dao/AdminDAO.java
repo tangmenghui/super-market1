@@ -8,6 +8,7 @@ import java.util.List;
 
 
 public interface AdminDAO {
+
     /**
      * 根据账号查询管理员
      * @param account

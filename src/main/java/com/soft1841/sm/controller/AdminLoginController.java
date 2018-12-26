@@ -2,6 +2,7 @@ package com.soft1841.sm.controller;
 
 import com.soft1841.sm.service.AdminService;
 import com.soft1841.sm.until.ServiceFactory;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -11,23 +12,17 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
+
 public class AdminLoginController {
-    @FXML
-    private javafx.scene.control.Button closeButton;
-    @FXML
-    private void closeButtonAction(){
-        Stage stage = (Stage) closeButton.getScene().getWindow();
-        stage.close();
-    }
     @FXML
     private TextField accountField;
     @FXML
     private PasswordField passwordField;
 
     private AdminService adminService = ServiceFactory.getAdminServiceInstance();
-
     /**
      * 登录方法
+     *
      * @throws Exception
      */
     public void login() throws Exception {
@@ -58,5 +53,8 @@ public class AdminLoginController {
             alert.setContentText("账号或密码错误，登录失败！");
             alert.showAndWait();
         }
+    }
+
+    public void listType(ActionEvent actionEvent) {
     }
 }

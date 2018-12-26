@@ -5,9 +5,6 @@ import com.soft1841.sm.entity.Goods;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * 商品DAO接口
- */
 public interface GoodsDAO {
     /**
      * 增加商品
@@ -46,7 +43,7 @@ public interface GoodsDAO {
      * @return
      * @throws SQLException
      */
-    Goods getGoodById(Long id) throws SQLException;
+    Goods getGoodsById(Long id) throws SQLException;
 
     /**
      * 根据类别查商品

@@ -44,7 +44,7 @@ public class AdminDAOImpl implements AdminDAO {
     @Override
     public List<Admin> selectAdmin() throws SQLException {
         List<Entity> entityList = Db.use().query("SELECT * FROM t_manager ");
-        List<Admin> adminList = new ArrayList<> ();
+        List<Admin> adminList = new ArrayList<>();
         for (Entity entity: entityList) {
             adminList.add(converAdmin(entity));
         }

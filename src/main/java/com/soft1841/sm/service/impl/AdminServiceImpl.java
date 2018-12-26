@@ -6,11 +6,9 @@ import com.soft1841.sm.service.AdminService;
 import com.soft1841.sm.until.DAOFactory;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
-/**
- * @author 陈宇航
- * 2018.12.24
- */
 public class AdminServiceImpl implements AdminService {
     private AdminDAO adminDAO = DAOFactory.getAdminDAOInstance();
 
@@ -30,5 +28,17 @@ public class AdminServiceImpl implements AdminService {
             }
         }
         return false;
+    }
+
+    @Override
+    public List<Admin> getAllAdmins() {
+        List<Admin> adminList = new ArrayList<>();
+        try {
+            adminList = adminDAO.selectAdmin();
+        } catch (SQLException e) {
+            //友好处理
+            System.err.println("查询所有管理员出现异常！");
+        }
+        return adminList;
     }
 }

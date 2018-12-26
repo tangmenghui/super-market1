@@ -9,10 +9,9 @@ import java.util.List;
 /**
  * 小票明细DAO接口
  */
-public interface DetailDAO{
+public interface DetailDAO {
     /**
      * 增加明细
-     *
      * @param detail
      * @return
      * @throws SQLException
@@ -21,7 +20,6 @@ public interface DetailDAO{
 
     /**
      * 查询所有明细
-     *
      * @return
      * @throws SQLException
      */
@@ -29,7 +27,6 @@ public interface DetailDAO{
 
     /**
      * 根据id查明细
-     *
      * @param id
      * @return
      * @throws SQLException
@@ -38,7 +35,6 @@ public interface DetailDAO{
 
     /**
      * 根据日期查询明细
-     *
      * @param date
      * @return
      * @throws SQLException

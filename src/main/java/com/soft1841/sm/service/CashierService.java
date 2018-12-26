@@ -1,6 +1,5 @@
 package com.soft1841.sm.service;
 
-
 public interface CashierService {
 
     /**
@@ -9,5 +8,5 @@ public interface CashierService {
      * @param password
      * @return
      */
-    boolean login(String account , String password);
+    boolean login(String account, String password);
 }

@@ -1,5 +1,6 @@
 package com.soft1841.sm.entity;
 
+
 public class Cashier {
     private Long id;
     private String name;

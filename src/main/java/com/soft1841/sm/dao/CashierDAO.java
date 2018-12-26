@@ -7,6 +7,7 @@ import java.util.List;
 
 
 public interface CashierDAO {
+
     /**
      * 根据工号查询收银员
      * @param account
