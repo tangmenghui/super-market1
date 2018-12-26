@@ -12,7 +12,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 
-public class MainController implements Initializable {
+public class AdminMainController implements Initializable {
     @FXML
     private StackPane mainContainer;
 
