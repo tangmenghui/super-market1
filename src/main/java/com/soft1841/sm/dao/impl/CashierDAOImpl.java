@@ -7,7 +7,10 @@ import com.soft1841.sm.entity.Cashier;
 
 import java.sql.SQLException;
 
-
+/**
+ * @author 陈宇航
+ * 2018.12.24
+ */
 public class CashierDAOImpl implements CashierDAO{
 
     /**

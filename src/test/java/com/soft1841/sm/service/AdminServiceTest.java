@@ -8,7 +8,10 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-
+/**
+ * @author 陈宇航
+ * 2018.12.24
+ */
 public class AdminServiceTest {
     private AdminService adminService = ServiceFactory.getAdminServiceInstance();
 

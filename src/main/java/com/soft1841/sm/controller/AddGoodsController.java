@@ -1,5 +1,9 @@
 package com.soft1841.sm.controller;
-
+/**
+ * 新增商品控制器
+ * @atuhor 汤萌慧
+ * 2018.12.26
+ */
 
 import com.soft1841.sm.entity.Goods;
 import com.soft1841.sm.entity.Type;
@@ -22,123 +26,52 @@ import java.util.ResourceBundle;
 
 public class AddGoodsController implements Initializable{
     private ObservableList<Goods> goodsData = FXCollections.observableArrayList();
-
-
-
     public ObservableList<Goods> getGoodsData() {
-
         return goodsData;
-
     }
-
-
-
     public void setGoodsData(ObservableList<Goods> goodsData) {
-
         this.goodsData = goodsData;
-
     }
-
-
-
     @FXML
-
     private ComboBox<Type> goodsType;
-
-
-
     @FXML
-
     private TextField goodsName,  goodsPrice, goodsPicture;
-
     @FXML
-
     private TextArea goodsDescription;
-
-
-
     private ObservableList<Type> typeData = FXCollections.observableArrayList();
-
-
-
     private GoodsService goodsService = ServiceFactory.getGoodsServiceInstance();
-
-
-
     private TypeService typeService = ServiceFactory.getTypeServiceInstance();
-
-
-
     private List<Type> typeList = null;
-
-
-
     private Long typeId;
-
-
-
     @Override
-
     public void initialize(URL location, ResourceBundle resources) {
-
         typeList = typeService.getAllTypes();
-
         typeData.addAll(typeList);
-
         goodsType.setItems(typeData);
-
         goodsType.getSelectionModel().selectedItemProperty().addListener((options, oldValue, newValue) -> {
-
                     typeId = newValue.getId();
-
                 }
-
         );
-
     }
-
-
-
     public void addGoods() {
-
         String name = goodsName.getText();
-
         String price = goodsPrice.getText();
-
         String picture = goodsPicture.getText();
-
         String description = goodsDescription.getText();
-
-        Goods goods = new Goods (  );
-
+       Goods goods = new Goods (  );
         goods.setTypeId(typeId);
-
         goods.setName(name);
-
         goods.setPrice(Double.parseDouble(price));
-
         goods.setPicture (picture);
-
         goods.setDescription (description);
-
         long id = goodsService.addGoods(goods);
-
         goods.setId(id);
-
         this.getGoodsData().add(goods);
-
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
-
         alert.setTitle("提示信息");
-
         alert.setHeaderText("新增商品成功!");
-
         alert.showAndWait();
-
         Stage stage = (Stage) goodsName.getScene().getWindow();
-
         stage.close();
-
     }
-
 }

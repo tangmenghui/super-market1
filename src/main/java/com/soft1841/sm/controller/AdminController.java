@@ -21,7 +21,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
-
+/**
+ * 管理员管理控制器
+ * @author 陈宇航
+ * 2018.12.26
+ */
 public class AdminController implements Initializable {
     @FXML
     private ListView<Admin> adminListView;

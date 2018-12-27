@@ -14,7 +14,11 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-
+/**
+ * 主控制器
+ * @author 陈宇航
+ * 2018.12.25
+ */
 public class AdminMainController implements Initializable {
     @FXML
     private StackPane mainContainer;
@@ -56,7 +60,7 @@ public class AdminMainController implements Initializable {
     private void switchView(String fileName) throws Exception {
         //清空原有内容
         mainContainer.getChildren().clear();
-        BorderPane borderPane = new FXMLLoader(getClass().getResource("/fxml/" + fileName)).load();
-        mainContainer.getChildren().add(borderPane);
+        AnchorPane anchorPane = new FXMLLoader(getClass().getResource("/fxml/" + fileName)).load();
+        mainContainer.getChildren().add(anchorPane);
     }
 }

@@ -6,7 +6,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class CashierMainApp extends Application{
+/**
+ * 前台主界面App
+ * @author 陈宇航
+ * 2018.12.25
+ */
+public class CashierMainAPP extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("超市前台收银系统");
@@ -14,7 +19,7 @@ public class CashierMainApp extends Application{
         Parent root = fxmlLoader.load();
         Scene scene = new Scene(root);
         primaryStage.setMaximized(true);
-        scene.getStylesheets().add(CashierMainApp.class.getResource("/css/cashier.css").toExternalForm());
+        scene.getStylesheets().add(CashierMainAPP.class.getResource("/css/cashier.css").toExternalForm());
         primaryStage.setScene(scene);
         primaryStage.show();
     }

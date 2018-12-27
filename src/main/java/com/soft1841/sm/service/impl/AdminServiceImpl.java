@@ -9,6 +9,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author 陈宇航
+ * 2018.12.24
+ */
 public class AdminServiceImpl implements AdminService {
     private AdminDAO adminDAO = DAOFactory.getAdminDAOInstance();
 
@@ -36,7 +40,7 @@ public class AdminServiceImpl implements AdminService {
         try {
             adminList = adminDAO.selectAdmin();
         } catch (SQLException e) {
-            //友好处理
+           //友好处理
             System.err.println("查询所有管理员出现异常！");
         }
         return adminList;

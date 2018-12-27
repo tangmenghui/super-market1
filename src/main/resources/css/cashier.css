@@ -3,12 +3,16 @@
     -fx-font-family: STXingkai;
 }
 .green-theme{
-    -fx-background-image: url(/img/change.jpg);
+    -fx-background-image: url(/img/flowers.jpg);
 }
 .white-theme{
-    -fx-background-color: rgb(230,221,219);
+    -fx-background-color: rgb(232,210,223);
 }
 .dark-theme{
-    -fx-background-color: rgb(230,221,219);
+    -fx-background-color: rgb(232,210,223);
 
+}
+.bsk-theme{
+    -fx-background-color: rgb(226,181,204);
+    -fx-text-fill: rgb(161,119,69);
 }

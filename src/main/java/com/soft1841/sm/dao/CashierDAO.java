@@ -5,7 +5,11 @@ import com.soft1841.sm.entity.Cashier;
 import java.sql.SQLException;
 import java.util.List;
 
-
+/**
+ * 收银员DAO接口
+ * @author 陈宇航
+ * 2018.12.24
+ */
 public interface CashierDAO {
 
     /**

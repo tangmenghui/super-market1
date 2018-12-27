@@ -1,6 +1,10 @@
 package com.soft1841.sm.entity;
 
-
+/**
+ * 收银员DAO接口
+ * @author 陈宇航
+ * 2018.12.24
+ */
 public class Admin {
     private Long id;
     private String name;

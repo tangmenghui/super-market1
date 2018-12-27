@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="638.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.soft1841.sm.controller.CashierLoginController"
-            styleClass="green-theme">
+styleClass="green-theme">
     <FlowPane hgap="15" prefHeight="90.0" prefWidth="396.0" styleClass="white-theme" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
     </FlowPane>
     <ImageView fitHeight="50.0" fitWidth="53.0" AnchorPane.leftAnchor="25">
@@ -44,7 +44,7 @@
         <Image url="/img/star.png" />
     </ImageView>
     <Label text="星辰超市收银界面" AnchorPane.rightAnchor="100" AnchorPane.topAnchor="5" styleClass="pink-theme">
-    </Label>
+        </Label>
     <HBox prefHeight="40.0" prefWidth="2000" spacing="450" AnchorPane.leftAnchor="50" AnchorPane.topAnchor="88">
         <Label text="订单编号" />
         <Label text="商品条码" />
@@ -55,36 +55,36 @@
     <Separator prefHeight="9.0" prefWidth="2000" AnchorPane.topAnchor="700" />
     <HBox prefHeight="30" prefWidth="2000" spacing="50" AnchorPane.topAnchor="750" AnchorPane.leftAnchor="20">
         <Label text="商品名称:" />
-        <Label prefHeight="33.0" prefWidth="135.0" />
+      <Label prefHeight="33.0" prefWidth="135.0" />
         <Label text="商品单价:" />
-        <Label prefHeight="35.0" prefWidth="96.0" />
+      <Label prefHeight="35.0" prefWidth="96.0" />
         <Label text="购买数量:" />
-        <Label prefHeight="37.0" prefWidth="74.0" />
+      <Label prefHeight="37.0" prefWidth="74.0" />
         <Label text="小计:" />
-        <Label prefHeight="34.0" prefWidth="97.0" />
+      <Label prefHeight="34.0" prefWidth="97.0" />
         <Label text="总计:" />
-        <Label prefHeight="40.0" prefWidth="113.0" />
-
+      <Label prefHeight="40.0" prefWidth="113.0" />
+        
     </HBox>
-    <VBox prefHeight="67.0" prefWidth="1500" AnchorPane.topAnchor="830" AnchorPane.leftAnchor="300" spacing="30">
-        <HBox prefHeight="36.0" prefWidth="1500" spacing="20">
-            <Label text="商品条码:" />
-            <TextField prefHeight="29.0" prefWidth="238.0" />
-            <Button styleClass="dark-theme" text="确定" />
-        </HBox>
-        <HBox prefHeight="34.0" prefWidth="1500" spacing="40">
-            <Label text="快捷键：" />
-            <Label text="F5:删除商品" />
-            <Label text="F6:修改数量" />
-        </HBox>
-    </VBox>
-    <HBox prefHeight="40.0" prefWidth="1000" AnchorPane.topAnchor="1000" AnchorPane.leftAnchor="20">
-        <Label text="当前用户：" />
-        <Label prefHeight="30.0" prefWidth="185.0" />
-        <Label text="登陆时间：" />
-        <Label prefHeight="35.0" prefWidth="219.0" />
-        <Label text="当前时间：" />
-        <Label prefHeight="45.0" prefWidth="257.0" />
-    </HBox>
+   <VBox prefHeight="67.0" prefWidth="1500" AnchorPane.topAnchor="830" AnchorPane.leftAnchor="300" spacing="30">
+         <HBox prefHeight="36.0" prefWidth="1500" spacing="20">
+             <Label text="商品条码:" />
+             <TextField prefHeight="29.0" prefWidth="238.0" />
+             <Button styleClass="dark-theme" text="确定" />
+         </HBox>
+         <HBox prefHeight="34.0" prefWidth="1500" spacing="40">
+             <Label text="快捷键：" />
+             <Label text="F5:删除商品" />
+             <Label text="F6:修改数量" />
+         </HBox>
+   </VBox>
+   <HBox prefHeight="40.0" prefWidth="1000" AnchorPane.topAnchor="1000" AnchorPane.leftAnchor="20">
+       <Label text="当前用户：" />
+      <Label prefHeight="30.0" prefWidth="185.0" />
+       <Label text="登陆时间：" />
+      <Label prefHeight="35.0" prefWidth="219.0" />
+       <Label text="当前时间：" />
+      <Label prefHeight="45.0" prefWidth="257.0" />
+   </HBox>
     <Button prefHeight="100" prefWidth="200" styleClass="dark-theme" text="结算打印" AnchorPane.rightAnchor="300" AnchorPane.topAnchor="850" />
 </AnchorPane>

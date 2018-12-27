@@ -4,6 +4,7 @@ import com.soft1841.sm.entity.Cashier;
 import com.soft1841.sm.until.DAOFactory;
 import org.junit.Test;
 
+
 import java.sql.SQLException;
 
 

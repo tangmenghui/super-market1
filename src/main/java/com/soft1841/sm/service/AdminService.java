@@ -4,7 +4,11 @@ import com.soft1841.sm.entity.Admin;
 
 import java.util.List;
 
-
+/**
+ * 管理员业务逻辑接口
+ * @author 陈宇航
+ * 2018.12.24
+ */
 public interface AdminService {
 
     /**

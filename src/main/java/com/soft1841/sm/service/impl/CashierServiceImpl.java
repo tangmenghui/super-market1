@@ -7,7 +7,10 @@ import com.soft1841.sm.until.DAOFactory;
 
 import java.sql.SQLException;
 
-
+/**
+ * @author 陈宇航
+ * 2018.12.24
+ */
 public class CashierServiceImpl implements CashierService{
     private CashierDAO cashierDAO = DAOFactory.getCashierDAOInstance();
 

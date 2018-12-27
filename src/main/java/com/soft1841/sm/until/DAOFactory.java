@@ -5,6 +5,7 @@ import com.soft1841.sm.dao.impl.*;
 
 /**
  * 工厂类，用静态方法来生成各个DAO实例
+ * @auther 小组成员
  */
 public class DAOFactory {
     /**
@@ -49,6 +50,14 @@ public class DAOFactory {
 
     public static TypeDAO getTypeDAOInstance() {
         return new TypeDAOImpl();
+    }
+    public static TicketDAO getTicketDAOInstance(){ return  new TicketDAOImpl();}
+    public static VIPDAO  getVIPDAOInstance(){
+        return new VIPDAOImpl();
+    }
+    public static DetailDAO getDetailDAOInstance(){
+        return new DetailDAOImpl();
+
     }
 
 }

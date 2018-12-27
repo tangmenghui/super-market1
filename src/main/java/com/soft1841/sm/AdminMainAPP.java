@@ -6,7 +6,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class AdminMainApp extends Application{
+/**
+ * 后台主界面App
+ * @author 陈宇航
+ * 2018.12.25
+ */
+public class AdminMainAPP extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -15,7 +20,7 @@ public class AdminMainApp extends Application{
         Parent root = fxmlLoader.load();
         Scene scene = new Scene(root);
         primaryStage.setMaximized(true);
-        scene.getStylesheets().add(AdminMainApp.class.getResource("/css/manage.css").toExternalForm());
+        scene.getStylesheets().add(AdminMainAPP.class.getResource("/css/manage.css").toExternalForm());
         primaryStage.setScene(scene);
         primaryStage.show();
     }

@@ -1,9 +1,13 @@
 .white-theme {
-    -fx-text-fill: #ffffff;
+    -fx-text-fill: rgb(161,119,69);
 }
 .green-theme {
     -fx-text-fill: #06ab17;
 }
 .red-theme{
     -fx-text-fill: #bf0909;
+}
+.bsk-theme{
+    -fx-background-color: rgb(226,181,204);
+    -fx-text-fill: rgb(161,119,69);
 }

@@ -1,4 +1,8 @@
 package com.soft1841.sm.dao.impl;
+/**
+ * @ author 汤萌慧
+ * 2018.12.26
+ */
 
 import cn.hutool.db.Db;
 import cn.hutool.db.Entity;
@@ -78,7 +82,7 @@ public class GoodsDAOImpl implements GoodsDAO {
 
     @Override
     public List<Goods> selectGoodsByTypeId(long typeId) throws SQLException {
-        List<Entity> entityList = Db.use().query("SELECT * FROM t_goods WHERE type_id = ? ", typeId);
+                List<Entity> entityList = Db.use().query("SELECT * FROM t_goods WHERE type_id = ? ", typeId);
 
         List<Goods> goodsList = new ArrayList<>();
 
@@ -115,7 +119,7 @@ public class GoodsDAOImpl implements GoodsDAO {
 
     private Goods convertGoods(Entity entity) {
 
-        Goods goods = new Goods (  );
+       Goods goods = new Goods (  );
 
         goods.setId(entity.getLong("id"));
 
@@ -131,4 +135,4 @@ public class GoodsDAOImpl implements GoodsDAO {
         return goods;
 
     }
-}
+    }
