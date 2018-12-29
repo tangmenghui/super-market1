@@ -2,249 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="272e30a3-acff-4467-ae57-0c3b45b539e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/CashierAnalysisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/TypeAnalysisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/VIPService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/impl/VIPServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/admins.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/shouyin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/shouyin_analysis.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/type_analysis.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/vip.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/bgf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/box.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/dongtai.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/dongtai.gif.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/dongtu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/doutu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/flowerss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/flowess.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/leibie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/musics.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/people2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/shouyin1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/shouyin2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/shujujiazaishibai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tong_ji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/xiaoshou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/xinxi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/xitong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/dao/VIPDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/service/VIPServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/AdminLoginApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/AdminMainAPP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/CashierLoginAPP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/CashierMainAPP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/AddGoodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/AdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/AdminLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/AdminMainController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/CashierAnalysisController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/CashierController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/CashierLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/CashierMainController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/GoodsAnalysisController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/GoodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/TicketController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/TypeAnalysisController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/TypeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/controller/VIPController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/AdminDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/CashierDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/DetailDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/GoodsDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/TicketDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/TypeDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/VIPDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/impl/AdminDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/impl/CashierDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/impl/DetailDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/impl/GoodsDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/impl/TicketDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/impl/TypeDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/dao/impl/VIPDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/entity/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/entity/Cashier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/entity/ComponentUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/entity/Detail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/entity/Goods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/entity/Ticket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/entity/Type.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/entity/VIP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/service/AdminService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/service/CashierService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/service/GoodsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/service/TypeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/service/VIPService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/service/impl/CashierServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/service/impl/GoodsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/service/impl/TypeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/service/impl/VIPServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/until/ComPonentutil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/until/DAOFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/until/ExcelExport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/sm/until/ServiceFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/config/db.setting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/cashier.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/manage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/add_goods.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/adminlogin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/admins.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/cashier.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/cashierlogin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/goods.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/goods_analysis.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/manager.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/shouyin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/shouyin_analysis.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/type.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/type_analysis.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/vip.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/account.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/bgf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/box.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/change.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/dianna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/dongtai.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/dongtu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/fruit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/gb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/leibie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/me.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/mima.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/musics.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/people2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/shine.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/shouyin1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/shouyin2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/shujujiazaishibai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/tong_ji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/xiaoshou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/xinxi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/xitong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/sm/dao/AdminDAOTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/sm/dao/CashierDAOTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/sm/dao/GoodsDAOTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/sm/dao/TypeDAOTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/sm/dao/VIPDAOTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/sm/service/AdminServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/sm/service/CashierServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/sm/service/GoodsServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/sm/service/TypeServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/sm/service/VIPServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_0_M1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_0_M1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_0_M1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_0_M1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0_beta1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0_beta1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/AdminLoginApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/AdminLoginApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/AdminMainAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/AdminMainAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/CashierLoginAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/CashierLoginAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/CashierMainAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/CashierMainAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/AddGoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/AddGoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/AdminLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/AdminLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/AdminMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/AdminMainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/BoundaryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/CashierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/CashierController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/CashierLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/CashierLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/CashierMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/CashierMainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/GoodsAnalysisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/GoodsAnalysisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/TypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/TypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/VIPController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/controller/VIPController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/AdminDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/AdminDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/CashierDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/CashierDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/DetailDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/DetailDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/GoodsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/GoodsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/TicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/TicketDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/TypeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/TypeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/VIPDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/VIPDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/impl/AdminDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/impl/AdminDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/impl/CashierDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/impl/CashierDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/impl/GoodsDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/impl/GoodsDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/impl/TypeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/impl/TypeDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/impl/VIPDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/dao/impl/VIPDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/Cashier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/ComponentUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/ComponentUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/Detail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/Detail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/VIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/entity/VIP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/CashierService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/CashierService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/DetailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/TicketService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/TypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/TypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/impl/CashierServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/impl/CashierServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/impl/DetailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/impl/TicketServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/impl/TypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/service/impl/TypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/until/DAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/until/DAOFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/until/ExcelExport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/until/ExcelExport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/until/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/sm/until/ServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/cashier.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/cashier.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/manage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/manage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/admin.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/adminlogin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/adminlogin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/cashier.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/cashier.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/cashierlogin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/cashierlogin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/goods.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/goods.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/goods_analysis.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/goods_analysis.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/type.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/type.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/star.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/dao/AdminDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/dao/AdminDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/dao/CashierDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/dao/CashierDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/dao/GoodsDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/dao/GoodsDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/dao/TypeDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/dao/TypeDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/service/AdminServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/service/AdminServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/service/CashierServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/service/CashierServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/service/DetailServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/service/GoodsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/service/GoodsServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/service/TypeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/sm/service/TypeServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/card.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/default.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/YY_kaiguan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/bill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/people.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/shezhi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/sure.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/card.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/default.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/YY_kaiguan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/bill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/people.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/shezhi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/sure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/tools.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -271,7 +37,7 @@
     <session id="625013729">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.2" value="1" />
@@ -283,7 +49,7 @@
         <counts>
           <entry key="css" value="14" />
           <entry key="fxml" value="74" />
-          <entry key="java" value="286" />
+          <entry key="java" value="287" />
           <entry key="jpg" value="6" />
           <entry key="md" value="1" />
           <entry key="png" value="4" />
@@ -295,7 +61,7 @@
         <counts>
           <entry key="CSS" value="14" />
           <entry key="Image" value="10" />
-          <entry key="JAVA" value="286" />
+          <entry key="JAVA" value="287" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="82" />
@@ -386,12 +152,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/goods.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soft1841/sm/AdminMainAPP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -494,8 +272,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="-5" />
     <option name="width" value="1125" />
     <option name="height" value="1010" />
   </component>
@@ -571,7 +348,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546065281729" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546070134335" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -663,8 +440,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.AdminMainAPP" />
-        <item itemvalue="Application.CashierLoginAPP" />
         <item itemvalue="Application.CashierMainAPP" />
+        <item itemvalue="Application.CashierLoginAPP" />
         <item itemvalue="Application.AdminLoginApp" />
       </list>
     </recent_temporary>
@@ -686,7 +463,7 @@
       <workItem from="1545812134559" duration="3452000" />
       <workItem from="1545837625186" duration="665000" />
       <workItem from="1545879612157" duration="2692000" />
-      <workItem from="1546047670292" duration="7695000" />
+      <workItem from="1546047670292" duration="8714000" />
     </task>
     <task id="LOCAL-00001" summary="根据小组代码，实现登陆界面的功能">
       <created>1545786243095</created>
@@ -716,16 +493,23 @@
       <option name="project" value="LOCAL" />
       <updated>1545886656363</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="参考小组代码，适当进行修改">
+      <created>1546065328928</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546065328928</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19222000" />
+    <option name="totallyTimeSpent" value="20241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21313673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21313673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -734,7 +518,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42091152" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42091152" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1040,16 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soft1841/sm/AdminMainAPP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/css/vip.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1155,6 +929,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soft1841/sm/AdminMainAPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
