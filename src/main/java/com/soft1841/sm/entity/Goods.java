@@ -1,9 +1,4 @@
 package com.soft1841.sm.entity;
-/**
- * 商品实体类
- * @author 汤萌慧
- * 2018.12.26
- */
 
 import cn.hutool.db.Entity;
 import javafx.beans.property.SimpleDoubleProperty;

@@ -5,9 +5,6 @@ import com.soft1841.sm.entity.VIP;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * 会员DAO接口
- */
 public interface VIPDAO {
     /**
      * 增加会员
@@ -23,7 +20,7 @@ public interface VIPDAO {
      * @return
      * @throws SQLException
      */
-    int deleteById(long id) throws SQLException;
+    int deleteVIPById(long id) throws SQLException;
 
     /**
      * 查询所有会员

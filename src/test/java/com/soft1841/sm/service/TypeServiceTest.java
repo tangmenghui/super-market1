@@ -1,8 +1,5 @@
 package com.soft1841.sm.service;
-/**
- * @ author 柳磊磊
- * 2018.12.26
- */
+
 
 import com.soft1841.sm.entity.Type;
 import com.soft1841.sm.until.ServiceFactory;
@@ -28,12 +25,12 @@ public class TypeServiceTest {
     @Test
     public void addType() {
         Type type = new Type();
-        type.setTypeName("测试新类别");
+        type.setTypeName("测试类别");
         typeService.addType(type);
     }
 
     @Test
     public void deleteType() {
-        typeService.deleteType(9);
+        typeService.deleteType(2);
     }
 }

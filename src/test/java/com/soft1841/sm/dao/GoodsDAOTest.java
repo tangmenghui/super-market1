@@ -1,8 +1,5 @@
 package com.soft1841.sm.dao;
-/**
- * @ author 汤萌慧
- * 2018.12.26
- */
+
 
 import com.soft1841.sm.entity.Goods;
 import com.soft1841.sm.until.DAOFactory;

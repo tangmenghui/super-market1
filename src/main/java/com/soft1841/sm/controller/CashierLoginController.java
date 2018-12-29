@@ -11,11 +11,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-/**
- * 收银登录控制器
- * @author 陈宇航
- * 2018.12.25
- */
+
 public class CashierLoginController {
     @FXML
     private TextField accountField1;

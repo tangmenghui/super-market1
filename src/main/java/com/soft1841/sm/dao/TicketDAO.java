@@ -5,9 +5,7 @@ import com.soft1841.sm.entity.Ticket;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * 小票DAO接口
- */
+
 public interface TicketDAO {
     /**
      * 增加小票
@@ -47,5 +45,6 @@ public interface TicketDAO {
      * @throws SQLException
      */
     Ticket getTicketByCashierId(long CashierId) throws SQLException;
+
 
 }

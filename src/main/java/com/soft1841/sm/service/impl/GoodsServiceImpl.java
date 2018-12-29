@@ -1,8 +1,4 @@
 package com.soft1841.sm.service.impl;
-/**
- * @author 汤萌慧
- * 2018.12.26
- */
 
 import com.soft1841.sm.dao.GoodsDAO;
 import com.soft1841.sm.entity.Goods;

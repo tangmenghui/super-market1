@@ -12,10 +12,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
-/**
- * @author 陈宇航
- * 2018.12.24
- */
+
 public class AdminLoginController {
     @FXML
     private TextField accountField;

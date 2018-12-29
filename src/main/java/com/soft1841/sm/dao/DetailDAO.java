@@ -6,9 +6,7 @@ import com.soft1841.sm.entity.Detail;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * 小票明细DAO接口
- */
+
 public interface DetailDAO {
     /**
      * 增加明细

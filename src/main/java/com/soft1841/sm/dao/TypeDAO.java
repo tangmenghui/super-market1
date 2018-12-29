@@ -6,11 +6,7 @@ import com.soft1841.sm.entity.Type;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * 图书类别DAO接口
- * @auther 柳磊磊
- * 2018 12.26
- */
+
 public interface TypeDAO {
 
     /**

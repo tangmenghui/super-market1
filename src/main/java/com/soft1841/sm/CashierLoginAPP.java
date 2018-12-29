@@ -11,7 +11,7 @@ public class CashierLoginAPP extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("星辰超市收银登录界面");
+        primaryStage.setTitle("Moe超市收银登录界面");
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/cashierlogin.fxml"));
         Parent root = fxmlLoader.load();
         Scene scene = new Scene(root,650,550);

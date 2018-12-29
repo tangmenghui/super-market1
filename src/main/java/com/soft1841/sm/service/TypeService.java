@@ -3,11 +3,7 @@ import com.soft1841.sm.entity.Type;
 
 import java.util.List;
 
-/**
- * 商品类别服务层的重构
- * @auther 柳磊磊
- * 2018 12.26
- */
+
 public interface TypeService {
     /**
      * 获取所有商品类别的功能

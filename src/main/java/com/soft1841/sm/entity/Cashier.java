@@ -1,10 +1,5 @@
 package com.soft1841.sm.entity;
 
-/**
- * 收银员实体类
- * @author 陈宇航
- * 2018.12.24
- */
 public class Cashier {
     private Long id;
     private String name;
@@ -14,19 +9,10 @@ public class Cashier {
     private String picture;
     private String account;
     private String password;
+    private String role;
+    private String department;
 
     public Cashier() {
-    }
-
-    public Cashier(Long id, String name, String number, String sexuality, String age, String picture, String account, String password) {
-        this.id = id;
-        this.name = name;
-        this.number = number;
-        this.sexuality = sexuality;
-        this.age = age;
-        this.picture = picture;
-        this.account = account;
-        this.password = password;
     }
 
     public Long getId() {
@@ -93,6 +79,22 @@ public class Cashier {
         this.password = password;
     }
 
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
     @Override
     public String toString() {
         return "Cashier{" +
@@ -104,6 +106,8 @@ public class Cashier {
                 ", picture='" + picture + '\'' +
                 ", account='" + account + '\'' +
                 ", password='" + password + '\'' +
+                ", role='" + role + '\'' +
+                ", department='" + department + '\'' +
                 '}';
     }
 }

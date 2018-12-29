@@ -7,15 +7,11 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
-/**
- * @author 陈宇航
- * 2018.12.24
- */
 public class AdminLoginApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        primaryStage.setTitle("星辰超市商品管理登录界面");
+        primaryStage.setTitle("Moe超市商品管理登录界面");
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/adminlogin.fxml"));
         Parent root = fxmlLoader.load();
         Scene scene = new Scene(root,700,550);

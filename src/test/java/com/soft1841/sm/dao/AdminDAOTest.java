@@ -8,10 +8,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 
-/**
- * @author 陈宇航
- * 2018.12.
- */
+
 public class AdminDAOTest {
     private AdminDAO adminDAO = DAOFactory.getAdminDAOInstance();
 

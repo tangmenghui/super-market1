@@ -9,10 +9,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author 陈宇航
- * 2018.12.24
- */
+
 public class AdminDAOImpl implements AdminDAO {
 
     /**
