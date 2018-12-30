@@ -22,7 +22,9 @@
 <Font name="STXingkai" size="50.0" />
 </font>
 </Label>
-<HBox prefHeight="103.0" prefWidth="1059.0" />
+<HBox prefHeight="107.0" prefWidth="876.0" >
+   <Label fx:id="timeLabel" styleClass="font-white" AnchorPane.rightAnchor="180" AnchorPane.topAnchor="30" />
+</HBox>
 <Label prefHeight="114.0" prefWidth="117.0" text="version:2.0">
 <font>
 <Font name="STXingkai" size="25.0" />

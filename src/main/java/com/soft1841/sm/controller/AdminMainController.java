@@ -1,5 +1,6 @@
 package com.soft1841.sm.controller;
 
+import javafx.application.Platform;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -7,6 +8,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
@@ -17,6 +19,8 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ResourceBundle;
 
 
@@ -48,6 +52,9 @@ public class AdminMainController implements Initializable {
     private Button h;
     @FXML
     private Button i;
+    @FXML
+    private Label timeLabel;
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -78,7 +85,29 @@ public class AdminMainController implements Initializable {
         Image btnImg8 = new Image("/img/main.png");
        ImageView imageView8 = new ImageView(btnImg8); //给按钮设置图标
        i.setGraphic(imageView8);
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while (true){
+                    LocalDateTime now = LocalDateTime.now();
+                    DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy年MM月dd日 HH：mm:ss");
+                    String timeString = dateTimeFormatter.format(now);
+                    Platform.runLater( new Runnable() {
+                        @Override
+                        public void run() {
+                            timeLabel.setText(timeString);
+                        }
+                    });
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e1) {
+                        System.err.println("中断异常");
+                    }
+                }
+            }
+        }).start();
     }
+
 
     //显示默认主页数据
     public void listDefault() throws Exception {
